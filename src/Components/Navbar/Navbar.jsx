@@ -7,7 +7,7 @@ const Navbar = () => {
     const activeClasses = "bg-sky-200 text-green-800";
 
     return (
-        <nav className="bg-sky-100 shadow-md">
+        <nav className="bg-sky-100 shadow-md fixed top-0 left-0 right-0 z-50">
             <ul className="flex justify-center items-center space-x-8 p-4">
                 <li>
                     <NavLink
