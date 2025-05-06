@@ -1,0 +1,25 @@
+.hollow-circle {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #3b82f6;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9998;
+  mix-blend-mode: difference;
+  will-change: transform;
+}
+
+.solid-circle {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background-color: #3b82f6;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9997;
+  mix-blend-mode: difference;
+  will-change: transform;
+}
