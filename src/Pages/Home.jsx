@@ -4,7 +4,7 @@ import homevideo from "/ac.mp4";
 const HomePage = () => {
     return (
         <div className="relative">
-            
+            {/* video and text overlay */}
             <div className="relative h-screen w-full overflow-hidden">
                 <video
                     autoPlay
@@ -15,7 +15,7 @@ const HomePage = () => {
                     <source src={homevideo} type="video/mp4" />
                 </video>
 
-             
+
                 <div className="absolute bottom-8 left-8 text-white z-10 max-w-2xl">
                     <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
                         Welcome to My Website
@@ -26,14 +26,14 @@ const HomePage = () => {
                 </div>
             </div>
 
-           
+            {/* product section */}
             <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">
                 <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
                     Featured Products
                 </h2>
 
                 <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-                  
+
                     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
                         <div className="h-48 bg-gray-200 flex items-center justify-center">
                             <span className="text-gray-500">Product Image</span>
@@ -47,7 +47,7 @@ const HomePage = () => {
                         </div>
                     </div>
 
-                    
+
                     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
                         <div className="h-48 bg-gray-200 flex items-center justify-center">
                             <span className="text-gray-500">Product Image</span>
@@ -61,7 +61,7 @@ const HomePage = () => {
                         </div>
                     </div>
 
-                    
+
                     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
                         <div className="h-48 bg-gray-200 flex items-center justify-center">
                             <span className="text-gray-500">Product Image</span>
